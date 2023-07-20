@@ -1,0 +1,20 @@
+{
+	"name": "cov2002_expe40solo",
+	"metabolic_network": "metabolic_network.sbml",
+	"objective_function": "VGRO",
+	"pkn": "interactions.txt",
+	"timeseries": [
+		{
+			"file": "timeseries/Fig40.csv",
+			"type": ["Kinetics","Fluxomics","Transcriptomics"],
+			"constraints": {
+				"ko": [],
+				"bounds": {
+					"GLCex": [-18.5, 18.5],
+					"O2ex": [0, 0],
+					"ACEB": [0, 0]
+				}
+			}
+		}
+	]
+}

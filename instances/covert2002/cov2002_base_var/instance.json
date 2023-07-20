@@ -1,0 +1,55 @@
+{
+	"name": "cov2002_base_var",
+	"metabolic_network": "metabolic_network.sbml",
+	"objective_function": "VGRO",
+	"pkn": "interactions.txt",
+	"timeseries": [
+		{
+			"file": "timeseries/Fig3.csv",
+			"type": ["Kinetics","Fluxomics","Transcriptomics"],
+			"constraints": {
+				"ko": [],
+				"bounds": {
+					"GLCex": [-10.5, 10.5],
+					"ACex": [-2.5, 2.5],
+					"O2ex": [-15, 15]
+				}
+			}
+		},
+		{
+			"file": "timeseries/Fig4.csv",
+			"type": ["Kinetics","Fluxomics","Transcriptomics"],
+			"constraints": {
+				"ko": [],
+				"bounds": {
+					"GLCex": [-18.5, 18.5],
+					"O2ex": [0, 0]
+				}
+			}
+		},
+		{
+			"file": "timeseries/Fig5.csv",
+			"type": ["Kinetics","Fluxomics","Transcriptomics"],
+			"constraints": {
+				"ko": [],
+				"bounds": {
+					"LCTSex": [-6.5, 6.5],
+					"GLCex": [-6.5, 6.5],
+					"O2ex": [-15, 15]
+				}
+			}
+		},
+		{
+			"file": "timeseries/Fig39.csv",
+			"type": ["Kinetics","Fluxomics","Transcriptomics"],
+			"constraints": {
+				"ko": [],
+				"bounds": {
+					"GLCex": [-10.5, 10.5],
+					"ACex": [-2.5, 2.5],
+					"O2ex": [0, 0]
+				}
+			}
+		}
+	]
+}

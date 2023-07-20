@@ -1,0 +1,61 @@
+node,rule_1,rule_2
+ArcA,!O2xt_b,
+Cra,!SurplusFDP,
+DcuR,DcuS,
+DcuS,SUCCxt_b,
+FadR,(!ACxt_b | GLCxt_b),
+Fnr,!O2xt_b,
+GalR,!LCTSxt_b,
+GalS,!LCTSxt_b,
+GlpR,1,
+IclR,FadR,
+LACUP,(!GLCxt_b | !LCTSxt_b),
+Lacl,!LCTSxt_b,
+Mlc,!GLCxt_b,
+PdhR,!SurplusPYR,
+RbsR,1,
+RpiR,1,
+SurplusF6P,,
+SurplusFDP,1,
+SurplusPYR,1,
+aceA,!IclR,
+aceB,(!ArcA & !IclR),
+aceEF,!PdhR,
+acnA,(ACxt_b | LCTSxt_b),
+acnB,(ACxt_b | LCTSxt_b),
+acs,(!ETHxt_b & !IclR & !LACxt_b & !LCTSxt_b),
+adhE,1,
+cydAB,1,
+cyoABCD,!Fnr,!ArcA
+dctA,(!ArcA & !GLCxt_b & !LACxt_b & !LCTSxt_b),
+dcuB,DcuR,
+dcuC,Fnr,ArcA
+fdnGHI,Fnr,
+focA,Fnr,ArcA
+frdABCD,Fnr,
+fumA,!Fnr,!ArcA
+fumB,Fnr,
+galE,(!GLCxt_b & !GalS),(!GLCxt_b & !GalR)
+galK,(!GLCxt_b & !GalS),(!GLCxt_b & !GalR)
+galM,(!GLCxt_b & !GalS),(!GLCxt_b & !GalR)
+galP,(ACxt_b | GLCxt_b),
+galT,(!GLCxt_b & !GalS),(!GLCxt_b & !GalR)
+glpABC,!GlpR,
+glpD,!GlpR,
+glpF,!GlpR,
+glpK,!GlpR,
+lacZ,(!GLCxt_b & !Lacl),
+lpdA,!PdhR,
+mdh,!ArcA,
+ndh,!Fnr,
+pflAB,Fnr,ArcA
+pflCD,Fnr,ArcA
+pgk,(ACxt_b | LCTSxt_b),
+ppsA,Cra,
+ptsGHI,(ACxt_b | !Mlc),(ACxt_b | LCTSxt_b)
+pykF,!Cra,
+rbsABCD,!RbsR,
+rbsK,!RbsR,
+rpiB,!RpiR,
+sdhABCD,!Fnr,!ArcA
+sucAB,!PdhR,
