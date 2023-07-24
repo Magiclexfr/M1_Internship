@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 This repository is for showing the code made during an Master 1 Internship, whose subject was "Identification de règles de régulation du métabolisme sur des réseaux biologiques à grande échelle".
 Due to privacy issues, the code used to create the files analyzed by the scripts of this repository couldn't be displayed here. The name of the algorithm is MERRIN, described in this paper: https://centralesupelec.hal.science/hal-03701755/ .
 
